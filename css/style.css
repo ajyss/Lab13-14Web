@@ -1,0 +1,80 @@
+:root {
+    --primary: #00d2ff;
+    --bg-dark: #1a1a2e;
+    --card-bg: #16213e;
+    --text-color: #e94560;
+    --white: #ffffff;
+}
+
+body { 
+    font-family: 'Inter', sans-serif; 
+    margin: 0; 
+    background: var(--bg-dark); 
+    color: var(--white);
+}
+
+.container { width: 95%; max-width: 1100px; margin: 30px auto; }
+
+/* Navbar Modern */
+nav { 
+    background: var(--card-bg); 
+    padding: 15px 25px; 
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+nav a { color: var(--white); text-decoration: none; margin-left: 20px; font-weight: 500; }
+nav a:hover { color: var(--primary); }
+
+/* Main Content Card */
+.main-card { 
+    background: var(--card-bg); 
+    padding: 30px; 
+    border-radius: 15px; 
+    margin-top: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Table Styling */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; overflow: hidden; border-radius: 10px; }
+th { background: rgba(255,255,255,0.05); text-align: left; padding: 15px; color: var(--primary); }
+td { padding: 15px; border-bottom: 1px solid rgba(255,255,255,0.05); }
+tr:hover { background: rgba(255,255,255,0.02); }
+
+/* Buttons */
+.btn { 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    text-decoration: none; 
+    font-size: 14px; 
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary { background: var(--primary); color: #000; font-weight: bold; }
+.btn-edit { color: #ffc107; margin-right: 10px; }
+.btn-delete { color: #ff4d4d; }
+
+/* Pagination */
+.pagination { display: flex; gap: 10px; margin-top: 25px; justify-content: center; }
+.pagination a { 
+    background: #0f3460; 
+    color: white; 
+    padding: 8px 16px; 
+    border-radius: 5px; 
+    text-decoration: none;
+}
+.pagination a.active { background: var(--primary); color: #000; }
+
+/* Search Input */
+.search-box {
+    background: transparent;
+    border: 1px solid #0f3460;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    width: 250px;
+}
