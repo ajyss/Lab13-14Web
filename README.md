@@ -67,8 +67,7 @@ Sistem mendukung penuh pengelolaan data barang, mulai dari penambahan hingga pen
 * **Aksi**: Tombol Edit dan Delete yang terintegrasi di setiap baris tabel.
 
 > **📸 FORM TAMBAH BARANG (DESAIN ELEGAN):**
-> <img src="tambah.png"
-">
+> <img src="tambah.png">
 > ---
 > 
 > 
