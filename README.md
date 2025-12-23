@@ -6,7 +6,7 @@ Silakan salin kode di bawah ini untuk file `README.md` Anda:
 
 # 📊 Inventory Management System - Pro Dashboard
 
-### 🎓 Laporan Tugas Praktikum Pemrograman Web 3
+### 🎓 Laporan Tugas Praktikum Pemrograman Web 1
 
 **Identitas Mahasiswa:**
 
