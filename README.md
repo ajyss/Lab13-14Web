@@ -66,7 +66,7 @@ Sistem mendukung penuh pengelolaan data barang, mulai dari penambahan hingga pen
 * **Tambah Barang**: Form input dengan dukungan upload gambar otomatis ke folder `img/`.
 * **Aksi**: Tombol Edit dan Delete yang terintegrasi di setiap baris tabel.
 
-> **📸 FORM TAMBAH BARANG (DESAIN ELEGAN):**
+> **📸 FORM TAMBAH BARANG:**
 > <img src="tambah.png">
 > ---
 > 
